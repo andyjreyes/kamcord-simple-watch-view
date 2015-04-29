@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14C1510" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="xa4-Ho-aJT">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="p11-qf-e6i">
+            <objects>
+                <navigationController hidesBarsOnSwipe="YES" id="xa4-Ho-aJT" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="sCP-5w-qEh">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="dEr-O0-O4I" kind="relationship" relationship="rootViewController" id="14e-sl-OcC"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KFZ-4D-SPB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="948" y="702"/>
+        </scene>
+        <!--Watch Kamcord Videos-->
+        <scene sceneID="QIO-WB-frt">
+            <objects>
+                <tableViewController id="dEr-O0-O4I" customClass="WatchViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="heb-6S-XMW">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Normal Cell" textLabel="gPP-Fc-Wy5" imageView="cA6-Ke-i0O" style="IBUITableViewCellStyleDefault" id="XFC-C8-f80">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="XFC-C8-f80" id="e3S-x3-tUK">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="gPP-Fc-Wy5">
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="Thumbnail Placeholder" id="cA6-Ke-i0O">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </imageView>
+                                    </subviews>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Watch View Cell" id="ls3-4V-FTM" customClass="WatchViewCell">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ls3-4V-FTM" id="J19-hI-8uq">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Thumbnail Placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="r09-y6-lFS">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K8c-oq-fbM">
+                                            <rect key="frame" x="8" y="14" width="584" height="21"/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="21"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                            <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <size key="shadowOffset" width="0.0" height="0.0"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="K8c-oq-fbM" firstAttribute="centerX" secondItem="r09-y6-lFS" secondAttribute="centerX" id="94p-yI-q2F"/>
+                                        <constraint firstItem="K8c-oq-fbM" firstAttribute="leading" secondItem="J19-hI-8uq" secondAttribute="leadingMargin" id="Dkz-ow-Xl1"/>
+                                        <constraint firstAttribute="trailing" secondItem="r09-y6-lFS" secondAttribute="trailing" id="NsT-yR-ULO"/>
+                                        <constraint firstItem="K8c-oq-fbM" firstAttribute="bottom" secondItem="r09-y6-lFS" secondAttribute="bottom" constant="-8" id="Z4F-Kf-mog"/>
+                                        <constraint firstAttribute="bottom" secondItem="r09-y6-lFS" secondAttribute="bottom" id="szK-Ew-M6C"/>
+                                        <constraint firstItem="r09-y6-lFS" firstAttribute="leading" secondItem="J19-hI-8uq" secondAttribute="leading" id="wVf-ym-bio"/>
+                                        <constraint firstItem="r09-y6-lFS" firstAttribute="top" secondItem="J19-hI-8uq" secondAttribute="top" id="x8Y-qh-qzk"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="mainImageView" destination="r09-y6-lFS" id="Kl9-mP-XPQ"/>
+                                    <outlet property="title" destination="K8c-oq-fbM" id="wRn-ut-aLV"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="dEr-O0-O4I" id="314-GY-bMp"/>
+                            <outlet property="delegate" destination="dEr-O0-O4I" id="07q-3s-8jx"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Watch Kamcord Videos" id="6i4-Rf-Ife"/>
+                    <refreshControl key="refreshControl" opaque="NO" multipleTouchEnabled="YES" contentMode="center" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="qDF-vh-tXC">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <attributedString key="attributedTitle">
+                            <fragment content="REFRESH">
+                                <attributes>
+                                    <font key="NSFont" metaFont="smallSystem"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <connections>
+                            <action selector="refresh" destination="dEr-O0-O4I" eventType="valueChanged" id="rhk-3C-mGC"/>
+                        </connections>
+                    </refreshControl>
+                    <connections>
+                        <outlet property="watchTableView" destination="heb-6S-XMW" id="fcX-4T-dQE"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="i5n-MR-kyE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1706" y="702"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Thumbnail Placeholder" width="512" height="288"/>
+    </resources>
+</document>

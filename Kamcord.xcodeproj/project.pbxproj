@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1F4DDE51ADFD1E300606D06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F4DDE41ADFD1E300606D06 /* main.m */; };
+		A1F4DDE81ADFD1E300606D06 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F4DDE71ADFD1E300606D06 /* AppDelegate.m */; };
+		A1F4DDEE1ADFD1E300606D06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1F4DDEC1ADFD1E300606D06 /* Main.storyboard */; };
+		A1F4DDF01ADFD1E300606D06 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1F4DDEF1ADFD1E300606D06 /* Images.xcassets */; };
+		A1F4DDF31ADFD1E300606D06 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1F4DDF11ADFD1E300606D06 /* LaunchScreen.xib */; };
+		A1F4DDFF1ADFD1E300606D06 /* KamcordTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F4DDFE1ADFD1E300606D06 /* KamcordTests.m */; };
+		A1F633D51AE6740300B8CDD7 /* KamcordVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F633D41AE6740300B8CDD7 /* KamcordVideo.m */; };
+		A1FC28F21AE497B2001EE2BC /* WatchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1FC28F11AE497B2001EE2BC /* WatchViewController.m */; };
+		A1FC28F51AE49E79001EE2BC /* WatchViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A1FC28F41AE49E79001EE2BC /* WatchViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1F4DDF91ADFD1E300606D06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1F4DDD71ADFD1E200606D06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1F4DDDE1ADFD1E200606D06;
+			remoteInfo = Kamcord;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A1F4DDDF1ADFD1E200606D06 /* Kamcord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kamcord.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1F4DDE31ADFD1E300606D06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1F4DDE41ADFD1E300606D06 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A1F4DDE61ADFD1E300606D06 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A1F4DDE71ADFD1E300606D06 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A1F4DDED1ADFD1E300606D06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A1F4DDEF1ADFD1E300606D06 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A1F4DDF21ADFD1E300606D06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A1F4DDF81ADFD1E300606D06 /* KamcordTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KamcordTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1F4DDFD1ADFD1E300606D06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1F4DDFE1ADFD1E300606D06 /* KamcordTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KamcordTests.m; sourceTree = "<group>"; };
+		A1F633D31AE6740300B8CDD7 /* KamcordVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KamcordVideo.h; sourceTree = "<group>"; };
+		A1F633D41AE6740300B8CDD7 /* KamcordVideo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KamcordVideo.m; sourceTree = "<group>"; };
+		A1FC28F01AE497B2001EE2BC /* WatchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WatchViewController.h; sourceTree = "<group>"; };
+		A1FC28F11AE497B2001EE2BC /* WatchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WatchViewController.m; sourceTree = "<group>"; };
+		A1FC28F31AE49E79001EE2BC /* WatchViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WatchViewCell.h; sourceTree = "<group>"; };
+		A1FC28F41AE49E79001EE2BC /* WatchViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WatchViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1F4DDDC1ADFD1E200606D06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1F4DDF51ADFD1E300606D06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1F4DDD61ADFD1E200606D06 = {
+			isa = PBXGroup;
+			children = (
+				A1F4DDE11ADFD1E300606D06 /* Kamcord */,
+				A1F4DDFB1ADFD1E300606D06 /* KamcordTests */,
+				A1F4DDE01ADFD1E300606D06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1F4DDE01ADFD1E300606D06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1F4DDDF1ADFD1E200606D06 /* Kamcord.app */,
+				A1F4DDF81ADFD1E300606D06 /* KamcordTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1F4DDE11ADFD1E300606D06 /* Kamcord */ = {
+			isa = PBXGroup;
+			children = (
+				A1FC28F01AE497B2001EE2BC /* WatchViewController.h */,
+				A1FC28F11AE497B2001EE2BC /* WatchViewController.m */,
+				A1F633D31AE6740300B8CDD7 /* KamcordVideo.h */,
+				A1F633D41AE6740300B8CDD7 /* KamcordVideo.m */,
+				A1FC28F31AE49E79001EE2BC /* WatchViewCell.h */,
+				A1FC28F41AE49E79001EE2BC /* WatchViewCell.m */,
+				A1F4DDEC1ADFD1E300606D06 /* Main.storyboard */,
+				A1F4DDF11ADFD1E300606D06 /* LaunchScreen.xib */,
+				A1F4DDEF1ADFD1E300606D06 /* Images.xcassets */,
+				A1F4DDE21ADFD1E300606D06 /* Supporting Files */,
+			);
+			path = Kamcord;
+			sourceTree = "<group>";
+		};
+		A1F4DDE21ADFD1E300606D06 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1F4DDE61ADFD1E300606D06 /* AppDelegate.h */,
+				A1F4DDE71ADFD1E300606D06 /* AppDelegate.m */,
+				A1F4DDE31ADFD1E300606D06 /* Info.plist */,
+				A1F4DDE41ADFD1E300606D06 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A1F4DDFB1ADFD1E300606D06 /* KamcordTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1F4DDFE1ADFD1E300606D06 /* KamcordTests.m */,
+				A1F4DDFC1ADFD1E300606D06 /* Supporting Files */,
+			);
+			path = KamcordTests;
+			sourceTree = "<group>";
+		};
+		A1F4DDFC1ADFD1E300606D06 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1F4DDFD1ADFD1E300606D06 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1F4DDDE1ADFD1E200606D06 /* Kamcord */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1F4DE021ADFD1E300606D06 /* Build configuration list for PBXNativeTarget "Kamcord" */;
+			buildPhases = (
+				A1F4DDDB1ADFD1E200606D06 /* Sources */,
+				A1F4DDDC1ADFD1E200606D06 /* Frameworks */,
+				A1F4DDDD1ADFD1E200606D06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kamcord;
+			productName = Kamcord;
+			productReference = A1F4DDDF1ADFD1E200606D06 /* Kamcord.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1F4DDF71ADFD1E300606D06 /* KamcordTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1F4DE051ADFD1E300606D06 /* Build configuration list for PBXNativeTarget "KamcordTests" */;
+			buildPhases = (
+				A1F4DDF41ADFD1E300606D06 /* Sources */,
+				A1F4DDF51ADFD1E300606D06 /* Frameworks */,
+				A1F4DDF61ADFD1E300606D06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1F4DDFA1ADFD1E300606D06 /* PBXTargetDependency */,
+			);
+			name = KamcordTests;
+			productName = KamcordTests;
+			productReference = A1F4DDF81ADFD1E300606D06 /* KamcordTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1F4DDD71ADFD1E200606D06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Andy Reyes";
+				TargetAttributes = {
+					A1F4DDDE1ADFD1E200606D06 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					A1F4DDF71ADFD1E300606D06 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = A1F4DDDE1ADFD1E200606D06;
+					};
+				};
+			};
+			buildConfigurationList = A1F4DDDA1ADFD1E200606D06 /* Build configuration list for PBXProject "Kamcord" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1F4DDD61ADFD1E200606D06;
+			productRefGroup = A1F4DDE01ADFD1E300606D06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1F4DDDE1ADFD1E200606D06 /* Kamcord */,
+				A1F4DDF71ADFD1E300606D06 /* KamcordTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1F4DDDD1ADFD1E200606D06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1F4DDEE1ADFD1E300606D06 /* Main.storyboard in Resources */,
+				A1F4DDF31ADFD1E300606D06 /* LaunchScreen.xib in Resources */,
+				A1F4DDF01ADFD1E300606D06 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1F4DDF61ADFD1E300606D06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1F4DDDB1ADFD1E200606D06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1F4DDE81ADFD1E300606D06 /* AppDelegate.m in Sources */,
+				A1FC28F21AE497B2001EE2BC /* WatchViewController.m in Sources */,
+				A1F4DDE51ADFD1E300606D06 /* main.m in Sources */,
+				A1F633D51AE6740300B8CDD7 /* KamcordVideo.m in Sources */,
+				A1FC28F51AE49E79001EE2BC /* WatchViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1F4DDF41ADFD1E300606D06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1F4DDFF1ADFD1E300606D06 /* KamcordTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1F4DDFA1ADFD1E300606D06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1F4DDDE1ADFD1E200606D06 /* Kamcord */;
+			targetProxy = A1F4DDF91ADFD1E300606D06 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A1F4DDEC1ADFD1E300606D06 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1F4DDED1ADFD1E300606D06 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A1F4DDF11ADFD1E300606D06 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1F4DDF21ADFD1E300606D06 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1F4DE001ADFD1E300606D06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1F4DE011ADFD1E300606D06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1F4DE031ADFD1E300606D06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Kamcord/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A1F4DE041ADFD1E300606D06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Kamcord/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A1F4DE061ADFD1E300606D06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KamcordTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kamcord.app/Kamcord";
+			};
+			name = Debug;
+		};
+		A1F4DE071ADFD1E300606D06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KamcordTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kamcord.app/Kamcord";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1F4DDDA1ADFD1E200606D06 /* Build configuration list for PBXProject "Kamcord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1F4DE001ADFD1E300606D06 /* Debug */,
+				A1F4DE011ADFD1E300606D06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1F4DE021ADFD1E300606D06 /* Build configuration list for PBXNativeTarget "Kamcord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1F4DE031ADFD1E300606D06 /* Debug */,
+				A1F4DE041ADFD1E300606D06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1F4DE051ADFD1E300606D06 /* Build configuration list for PBXNativeTarget "KamcordTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1F4DE061ADFD1E300606D06 /* Debug */,
+				A1F4DE071ADFD1E300606D06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1F4DDD71ADFD1E200606D06 /* Project object */;
+}
