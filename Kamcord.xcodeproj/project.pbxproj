@@ -29,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A1615B1B1AF11FCC00968B58 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
+		A1615B1C1AF11FCC00968B58 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		A1F4DDDF1ADFD1E200606D06 /* Kamcord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kamcord.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1F4DDE31ADFD1E300606D06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1F4DDE41ADFD1E300606D06 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -108,6 +110,8 @@
 				A1F4DDE71ADFD1E300606D06 /* AppDelegate.m */,
 				A1F4DDE31ADFD1E300606D06 /* Info.plist */,
 				A1F4DDE41ADFD1E300606D06 /* main.m */,
+				A1615B1B1AF11FCC00968B58 /* LICENSE */,
+				A1615B1C1AF11FCC00968B58 /* README.md */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";

@@ -1,5 +1,5 @@
-# kamcord-simple-watch-view
-A simple watch view for Kamcord videos. An experiment in asynchronous downloading, video media, and custom views.
+# Watch Kamcord Videos
+A simple watch view for Kamcord videos. A personal experiment in asynchronous downloading, video media, and custom views.
 
 Watch Kamcord Videos is a Universal iOS app that quickly gets you to a list of Kamcord videos. Scroll through and tap on any thumbnail to bring up the video! Pull to refresh for even more fun!
 
@@ -7,7 +7,7 @@ Watch Kamcord Videos is a Universal iOS app that quickly gets you to a list of K
 
 - Asynchronous downloading of thumbnail images makes the app feel fast! This was the most challenging part to get right for me. Lots of experimentation with different downloading and cell refresh strategies.
 
-- Beautiful custom table view cells! Thumbnails take up the full width of the screen with Titles overlaid on top. (My first ever custom cell design!)
+- Beautiful custom table view cells! Thumbnails take up the full width of the screen with Titles overlaid on top.
 
 - A slight gradient is applied to every cell so the Title is always legible. I love little UI things like that.
 
