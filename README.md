@@ -39,10 +39,10 @@ Watch Kamcord Videos is a Universal iOS app that quickly gets you to a list of K
 
 ##Screenshots:
 
-<img src="https://cloud.githubusercontent.com/assets/2688720/7394588/610651ce-ee49-11e4-812c-77ece86e2b4c.png" height=700 width=393> <img src="https://cloud.githubusercontent.com/assets/2688720/7394508/e9dd7118-ee48-11e4-9ec5-32cccaec96f2.png" height=700 width=393>
+<img src="https://cloud.githubusercontent.com/assets/2688720/7394588/610651ce-ee49-11e4-812c-77ece86e2b4c.png" height=650 width=365> <img src="https://cloud.githubusercontent.com/assets/2688720/7394508/e9dd7118-ee48-11e4-9ec5-32cccaec96f2.png" height=650 width=365>
 
-<img src="https://cloud.githubusercontent.com/assets/2688720/7394579/4adedb64-ee49-11e4-82e8-588b7b1c47d0.png" height=700 width=393> <img src="https://cloud.githubusercontent.com/assets/2688720/7394552/30071cca-ee49-11e4-890e-994fc7dbc4d7.png" height=700 width=393>
+<img src="https://cloud.githubusercontent.com/assets/2688720/7394579/4adedb64-ee49-11e4-82e8-588b7b1c47d0.png" height=650 width=365> <img src="https://cloud.githubusercontent.com/assets/2688720/7394552/30071cca-ee49-11e4-890e-994fc7dbc4d7.png" height=650 width=365>
 
-<img src="https://cloud.githubusercontent.com/assets/2688720/7394618/87675084-ee49-11e4-8df4-4e6fcb45f694.png" height=700 width=393> <img src="https://cloud.githubusercontent.com/assets/2688720/7394619/8767721c-ee49-11e4-863f-9474345ee640.png" height=700 width=393>
+<img src="https://cloud.githubusercontent.com/assets/2688720/7394618/87675084-ee49-11e4-8df4-4e6fcb45f694.png" height=650 width=365> <img src="https://cloud.githubusercontent.com/assets/2688720/7394619/8767721c-ee49-11e4-863f-9474345ee640.png" height=650 width=365>
 
-<img src="https://cloud.githubusercontent.com/assets/2688720/7394620/87686abe-ee49-11e4-864b-f5167c094c8f.png" height=700 width=393>
+<img src="https://cloud.githubusercontent.com/assets/2688720/7394620/87686abe-ee49-11e4-864b-f5167c094c8f.png" height=650 width=365>
