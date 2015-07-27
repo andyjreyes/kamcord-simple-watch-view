@@ -38,16 +38,16 @@
 #pragma mark - Constants
 
 
-static NSString* kVidDataSrcStr                     = @"https://www.kamcord.com/app/v2/videos/feed/?feed_id=0";
-static NSString* kResStr                            = @"response";
-static NSString* kVidListStr                        = @"video_list";
-static NSString* kVidURLStr                         = @"video_url";
-static NSString* kVidTitleStr                       = @"title";
-static NSString* kVidThumbStr                       = @"thumbnails";
-static NSString* kVidRegularThumbStr                = @"REGULAR";
-static NSString* kWatchViewCellIdentifier           = @"Watch View Cell";
-static NSString* kNormalCellIdentifier              = @"Normal Cell";
-static NSString* kThumbnailPlaceholderIdentifier    = @"Thumbnail Placeholder";
+NSString* const kVidDataSrcStr                     = @"https://www.kamcord.com/app/v2/videos/feed/?feed_id=0";
+NSString* const kResStr                            = @"response";
+NSString* const kVidListStr                        = @"video_list";
+NSString* const kVidURLStr                         = @"video_url";
+NSString* const kVidTitleStr                       = @"title";
+NSString* const kVidThumbStr                       = @"thumbnails";
+NSString* const kVidRegularThumbStr                = @"REGULAR";
+NSString* const kWatchViewCellIdentifier           = @"Watch View Cell";
+NSString* const kNormalCellIdentifier              = @"Normal Cell";
+NSString* const kThumbnailPlaceholderIdentifier    = @"Thumbnail Placeholder";
 
 #define kCustomRowCount             7
 #define kThumbnailCrossDissolveTime 0.5
